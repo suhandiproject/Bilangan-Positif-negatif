@@ -9,7 +9,8 @@ leng = 'bilangan tersebut Nol'
 
 def cek(num):
 
-	global num	if num > 0:
+	global num
+	if num > 0:
 
 		print true
 
