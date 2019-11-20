@@ -1,39 +1,15 @@
 #!usr/bin/python
 #use-python
+num = float(input("Angka: "))
 
-true = 'bilangan tersebut adalah Positif'
+if num > 0:
 
-false = 'bilangan tersebut adalah Negatif'
+   print("Positif")
 
-leng = 'bilangan tersebut Nol'
+elif num == 0:
 
-def cek(num):
+   print("Nol")
 
-	global num
-	if num > 0:
+else:
 
-		print true
-
-		ing()
-
-	else:
-
-		if num == 0:
-
-			print leng
-
-			ing()
-
-		else:
-
-			print false
-
-			ing()
-
-def ing():
-
-	global num
-
-	num = raw_input('Masukan Bilangan : ')
-
-	cek(num)
+   print("Negatif")
